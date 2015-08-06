@@ -3,14 +3,19 @@
 ###Ricardo Vega M. / @ricardov_cl / [Ricardov.cl](http://www.riardov.cl)
 
 Clases Visualizacion de Informacion.
+- Bajar e instalar Textwrangler o SublimeText 2
+- Crear cuenta en CartoDB. 
+
 
 1. (10) Formatos: text, JSON, .csv, .tsv
-2. (10) Fuentes de Datos abiertos, OpenData Opensurce, etc.  
-3. (20) Open Refine
-4. (10) SVG y Canvas
-5. (40) D3, Ejemplo 1
-6. (20) D3, Ejemplo 2
-7. (10) Timeline.JS 
-8. (20) CartoDB
-9. (20) R Project
-10. (20) Otras Herramientas: MAnyEyes, Gephy, Tableau, Tabula, Textwrangler
+2. (20) Open Refine
+3. (20) SVG y Canvas
+4. (30) D3, Ejemplo 1
+5. (30) D3, Ejemplo 2
+6. (20) CartoDB
+7. (20) R Project
+8. (20) Otras Herramientas: 
+	- Gephy. para redes y relaciones. [http://gephi.github.io/](http://gephi.github.io/)
+ 	- Tabula. para extraer tablas desde PDF. [http://tabula.technology/](http://tabula.technology/)
+	- Timeline.JS . lineas de tiepo con multimedios. [http://timeline.knightlab.com/](http://timeline.knightlab.com/) 
+	- Otras. [ComputerWorld](http://www.computerworld.com/article/2506820/business-intelligence/business-intelligence-chart-and-image-gallery-30-free-tools-for-data-visualization-and-analysis.html?nsdr=true)
