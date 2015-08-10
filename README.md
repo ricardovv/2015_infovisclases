@@ -3,8 +3,8 @@
 ###Ricardo Vega M. / @ricardov_cl / [Ricardov.cl](http://www.riardov.cl)
 
 Clases Visualizacion de Informacion.
-- Bajar e instalar Textwrangler o SublimeText 2
-- Crear cuenta en CartoDB. 
+-- Bajar e instalar [Textwrangler](http://www.barebones.com/products/textwrangler/) o [SublimeText](http://www.sublimetext.com/)
+- Crear cuenta en [CartoDB](https://cartodb.com/). 
 
 
 1. (10) Formatos: text, JSON, .csv, .tsv

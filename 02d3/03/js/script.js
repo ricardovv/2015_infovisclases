@@ -21,6 +21,12 @@ var xScale = d3.scale.ordinal()
 			.domain(d3.range(0, bardata.length ))// rango de 0 al total de datos 
 			.rangeBands([0, w])// de posicin 0 al ancho del gr'a'fico
 
+//cartelitos con datos
+var tooltip = d3.select('body').append('div')
+			.style('position', 'absolute')
+			.style('background', 'white')
+			.style('padding', '7px')
+			.style('opacity', 0)
 
 //Selecciona un elemento y agrega un svg
 d3.select('#caja').append('svg')
@@ -44,7 +50,29 @@ d3.select('#caja').append('svg')
  			//return h - d;
  			return h - yScale(d);//mapea a lo alto de la caja
  		})
-	 
+
+
+
+.on('mouseover', function(d) {
+	tooltip.transition()
+		.style('opacity', .9)
+	
+	tooltip.html(d)
+		.style('left', (d3.event.pageX) + 'px' )
+		.style('top', (d3.event.pageY) + 'px')
+
+
+	d3.select(this)
+		.style('opacity', .5)
+
+})
+
+.on('mouseout', function(d) {
+	d3.select(this)
+		.style('opacity', 1.)
+
+})
+
 
 
 //Coloca ext para un titulo usando variables
